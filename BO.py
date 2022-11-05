@@ -1,6 +1,5 @@
 import time
 
-
 def vraag1():
     time.sleep(1)
     print("Jouw wereld is in groot gevaar door het klimaat en een zwart gat. Wat ga je doen")
@@ -353,3 +352,4 @@ def Einde3():
 
 def Einde4():
     print("je bent dood gegaan")
+vraag1()
