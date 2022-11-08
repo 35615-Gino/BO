@@ -81,9 +81,9 @@ def vraag4():
 
 def vraag5():
     time.sleep(1)
-    print("")
+    print(" langzaam gaan alle spullen die je hebt op, wat ga je doen?")
     time.sleep(1)
-    answer = input(" langzaam gaan alle spullen die je hebt op, wat ga je doen?").lower()    
+    answer = input("A: wacht het af B: maak schoon").lower()    
     if  answer == ("a"):         
         print ("rustig verlaat je het wormgat en gaat langzaam naar een planeet")   
         vraag6()
